@@ -3,6 +3,7 @@ import { FlatList, StyleSheet } from 'react-native';
 import PropertyCard from './Card.jsx';
 import properties from '../data/properties.json';
 
+
 const PropertyList = () => {
   const renderProperty = ({ item }) => (
     <PropertyCard
