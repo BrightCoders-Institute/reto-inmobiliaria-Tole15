@@ -1,0 +1,102 @@
+{
+  "Properties": [
+    {
+      "Name": "The Willows",
+      "id": 1,
+      "Details": [
+        {
+          "image": "https://www.smartertravel.com/wp-content/uploads/2014/09/stm540f217ac5b9d20140909.jpg",
+          "Location": "3517 W.Gray St.Utica",
+          "Bedrooms": 3,
+          "Bathrooms": 2,
+          "Space": "230 ft",
+          "Price": "$440/m"
+        }
+      ]
+    },
+    {
+      "Name": "The Willows",
+      "id": 2,
+      "Details": [
+        {
+          "image": "https://www.smartertravel.com/wp-content/uploads/2014/09/stm540f217ac5b9d20140909.jpg",
+          "Location": "3517 W.Gray St.Utica",
+          "Bedrooms": 3,
+          "Bathrooms": 2,
+          "Space": "230 ft",
+          "Price": "$440/m"
+        }
+      ]
+    },
+    {
+      "Name": "The Corner",
+      "id": 7,
+      "Details": [
+        {
+          "image": "https://www.smartertravel.com/wp-content/uploads/2014/09/stm540f217ac5b9d20140909.jpg",
+          "Location": "1357 Cedar Court",
+          "Bedrooms": 2,
+          "Bathrooms": 2,
+          "Space": "1200 ft",
+          "Price": "$400/m"
+        }
+      ]
+    },
+    {
+      "Name": "The Birch",
+      "id": 6,
+      "Details": [
+        {
+          "image": "https://www.smartertravel.com/wp-content/uploads/2014/09/stm540f217ac5b9d20140909.jpg",
+          "Location": "2468 Birch Road",
+          "Bedrooms": 1,
+          "Bathrooms": 1,
+          "Space": "900 ft",
+          "Price": "$250/m"
+        }
+      ]
+    },
+    {
+      "Name": "The Maple",
+      "id": 5,
+      "Details": [
+        {
+          "image": "https://www.smartertravel.com/wp-content/uploads/2014/09/stm540f217ac5b9d20140909.jpg",
+          "Location": "7890 Maple Lane",
+          "Bedrooms": 3,
+          "Bathrooms": 2,
+          "Space": "2000 ft",
+          "Price": "$500/m"
+        }
+      ]
+    },
+    {
+      "Name": "The Pines",
+      "id": 4,
+      "Details": [
+        {
+          "image": "https://www.smartertravel.com/wp-content/uploads/2014/09/stm540f217ac5b9d20140909.jpg",
+          "Location": "5678 Pine Avenue",
+          "Bedrooms": 2,
+          "Bathrooms": 1,
+          "Space": "1500 ft",
+          "Price": "$300/m"
+        }
+      ]
+    },
+    {
+      "Name": "The Oaks",
+      "id": 3,
+      "Details": [
+        {
+          "image": "https://www.smartertravel.com/wp-content/uploads/2014/09/stm540f217ac5b9d20140909.jpg",
+          "Location": "1234 Oak Street",
+          "Bedrooms": 4,
+          "Bathrooms": 3,
+          "Space": "2800 ft",
+          "Price": "$650/m"
+        }
+      ]
+    }
+  ]
+}
