@@ -1,8 +1,7 @@
 import React from 'react';
 import { FlatList, StyleSheet } from 'react-native';
-import PropertyCard from './Card.jsx';
+import PropertyCard from './Card';
 import properties from '../data/properties.json';
-
 
 const PropertyList = () => {
   const renderProperty = ({ item }) => (
