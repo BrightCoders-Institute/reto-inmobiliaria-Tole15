@@ -1,11 +1,26 @@
-import React from 'react';
-import { View, Text, Image } from 'react-native';
-import LikeButton from './LikeButton';
-import { MaterialIcons } from '@expo/vector-icons';
-import { StyleSheet } from 'react-native';
+import React from "react";
+import { View, Text, Image } from "react-native";
+import LikeButton from "./LikeButton";
+import { MaterialIcons } from "@expo/vector-icons";
+import { StyleSheet } from "react-native";
+import { useFonts } from "expo-font";
 
+const PropertyCard = ({
+  name,
+  location,
+  bedrooms,
+  bathrooms,
+  space,
+  price,
+  image,
+}) => {
+  const [fontsLoaded] = useFonts({
+    "poppins-regular": require("../assets/fonts/Poppins-Regular.ttf"),
+  });
 
-const PropertyCard = ({ name, location, bedrooms, bathrooms, space, price, image }) => {
+  if (!fontsLoaded) {
+    return null;
+  }
 
   return (
     <View style={styles.cardContainer}>
@@ -47,59 +62,60 @@ const PropertyCard = ({ name, location, bedrooms, bathrooms, space, price, image
 };
 
 const styles = StyleSheet.create({
-    cardContainer: {
-      borderRadius: 10,
-      padding: 16,
-      margin: 8,
-      width: 300,
-      backgroundColor: 'F5FDFF',
-    },
-    rowContainer: {
-      flexDirection: 'row',
-      alignItems: 'center',
-    },
-    image: {
-      width: 90,
-      height: 90,
-      borderRadius: 10,
-    },
-    infoContainer: {
-      flex: 1,
-      marginLeft: 16,
-      marginTop: -36,
-    },
-    title: {
-      fontSize: 18,
-    },
-    addressContainer: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      marginBottom: 5,
-    },
-    iconTextContainer: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      marginRight: 16,
-    },
-    infoText: {
-      marginLeft: 4,
-      fontWeight: '500',
-    },
-    price: {
-      position: 'absolute',
-      bottom: -35,
-      left: 0,
-      color: 'black',
-      fontSize: 18,
-      fontWeight: 'bold',
-      marginBottom: 8,
-    },
-    ubi: {
-      marginLeft: 4,
-      fontWeight: '500',
-      color: '#737373',
-    },
-  });
-  
-  export default PropertyCard;
+  cardContainer: {
+    borderRadius: 10,
+    padding: 16,
+    margin: 8,
+    width: 300,
+    backgroundColor: "F5FDFF",
+  },
+  rowContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  image: {
+    width: 90,
+    height: 90,
+    borderRadius: 10,
+  },
+  infoContainer: {
+    flex: 1,
+    marginLeft: 16,
+    marginTop: -36,
+  },
+  title: {
+    fontFamily: "poppins-regular", 
+    fontSize: 18,
+  },
+  addressContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 5,
+  },
+  iconTextContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginRight: 16,
+  },
+  infoText: {
+    marginLeft: 4,
+    fontWeight: "500",
+    fontFamily: "poppins-regular",
+  },
+  price: {
+    position: "absolute",
+    bottom: -35,
+    left: 0,
+    color: "black", 
+    fontSize: 18,
+    fontWeight: "bold",
+    marginBottom: 8,
+  },
+  ubi: {
+    marginLeft: 4,
+    fontWeight: "500",
+    color: "#737373",
+  },
+});
 
+export default PropertyCard;
