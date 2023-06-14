@@ -4,10 +4,12 @@ import { colors } from "./colors";
 export const styles = StyleSheet.create({
   cardContainer: {
     borderRadius: 10,
-    padding: 12,
-    margin: 8,
+    padding: 11,
+    margin: 4,
     width: 340,
     backgroundColor: colors.cardBackground,
+    marginTop: 50,
+    marginBottom: -30,
   },
   rowContainer: {
     flexDirection: "row",
