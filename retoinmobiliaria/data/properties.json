@@ -9,7 +9,7 @@
           "Location": "3517 W.Gray St.Utica",
           "Bedrooms": 3,
           "Bathrooms": 2,
-          "Space": "230 ft",
+          "Space": "230 ft²",
           "Price": "$440/m"
         }
       ]
@@ -23,7 +23,7 @@
           "Location": "3517 W.Gray St.Utica",
           "Bedrooms": 3,
           "Bathrooms": 2,
-          "Space": "230 ft",
+          "Space": "230 ft²",
           "Price": "$440/m"
         }
       ]
@@ -37,7 +37,7 @@
           "Location": "1357 Cedar Court",
           "Bedrooms": 2,
           "Bathrooms": 2,
-          "Space": "1200 ft",
+          "Space": "1200 ft²",
           "Price": "$400/m"
         }
       ]
@@ -51,7 +51,7 @@
           "Location": "2468 Birch Road",
           "Bedrooms": 1,
           "Bathrooms": 1,
-          "Space": "900 ft",
+          "Space": "900 ft²",
           "Price": "$250/m"
         }
       ]
@@ -65,7 +65,7 @@
           "Location": "7890 Maple Lane",
           "Bedrooms": 3,
           "Bathrooms": 2,
-          "Space": "2000 ft",
+          "Space": "2000 ft²",
           "Price": "$500/m"
         }
       ]
@@ -79,7 +79,7 @@
           "Location": "5678 Pine Avenue",
           "Bedrooms": 2,
           "Bathrooms": 1,
-          "Space": "1500 ft",
+          "Space": "1500 ft²",
           "Price": "$300/m"
         }
       ]
@@ -93,7 +93,7 @@
           "Location": "1234 Oak Street",
           "Bedrooms": 4,
           "Bathrooms": 3,
-          "Space": "2800 ft",
+          "Space": "2800 ft²",
           "Price": "$650/m"
         }
       ]

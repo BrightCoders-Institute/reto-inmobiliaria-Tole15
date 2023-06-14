@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
 import LikeButton from "./LikeButton";
-import { MaterialIcons } from "@expo/vector-icons";
+import { Ionicons, MaterialCommunityIcons, SimpleLineIcons} from "@expo/vector-icons";
 import { useFonts } from "expo-font";
 import { styles } from "./styles";
 import { colors } from "./colors";
@@ -32,32 +32,32 @@ const PropertyCard = ({
           <Text style={styles.title}>{name}</Text>
 
           <View style={styles.addressContainer}>
-            <MaterialIcons name="location-on" size={16} color={colors.title} />
+            <SimpleLineIcons name="location-pin" size={22} color={colors.icons} />
             <Text style={styles.ubi}>{location}</Text>
           </View>
 
           <View style={styles.rowContainer}>
             <View style={styles.iconTextContainer}>
-              <MaterialIcons name="hotel" size={16} color={colors.title} />
+              <Ionicons name="bed-outline" size={22} color={colors.icons}/>
               <Text style={styles.infoText}>{bedrooms}</Text>
             </View>
 
             <View style={styles.iconTextContainer}>
-              <MaterialIcons name="bathtub" size={16} color={colors.title} />
+              <MaterialCommunityIcons name="shower" size={22} color={colors.icons} style={styles.mirrorIcon} />
               <Text style={styles.infoText}>{bathrooms}</Text>
             </View>
 
             <View style={styles.iconTextContainer}>
-              <MaterialIcons name="space-bar" size={16} color={colors.title} />
+              <MaterialCommunityIcons name="floor-plan" size={22} color={colors.icons} style={styles.mirrorIconDos} />
               <Text style={styles.infoText}>{space}</Text>
             </View>
           </View>
-
           <Text style={styles.price}>{price}</Text>
         </View>
+        <LikeButton/>
       </View>
 
-      <LikeButton />
+    
     </View>
   );
 };

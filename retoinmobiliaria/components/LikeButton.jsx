@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View } from 'react-native';
 import { Button, Icon } from 'react-native-elements';
+import { styles } from "./styles";
 
 const LikeButton = () => {
   const [liked, setLiked] = useState(false);
@@ -10,7 +11,7 @@ const LikeButton = () => {
   };
 
   return (
-    <View style={styles.container}>
+    <View style={styles.iconHeartContainer}>
       <View style={styles.circle}>
         <Button
           icon={
@@ -18,7 +19,7 @@ const LikeButton = () => {
               name={liked ? 'heart' : 'heart-o'}
               type="font-awesome"
               color="#FFFFFF"
-              size={16}
+              size={14}
             />
           }
           buttonStyle={styles.button}
@@ -30,23 +31,5 @@ const LikeButton = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    alignItems: 'flex-end',
-  },
-  circle: {
-    width: 30,
-    height: 30,
-    borderRadius: 15,
-    backgroundColor: '#00B074',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: -20,
-  },
-  button: {
-    backgroundColor: 'transparent',
-    padding: 0,  
-  },
-});
 
 export default LikeButton;

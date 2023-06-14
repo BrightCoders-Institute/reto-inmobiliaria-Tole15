@@ -1,7 +1,8 @@
 import React from 'react';
-import { FlatList, StyleSheet } from 'react-native';
+import { FlatList } from 'react-native';
 import PropertyCard from './Card';
 import properties from '../data/properties.json';
+import { styles } from "./styles";
 
 const PropertyList = () => {
   const renderProperty = ({ item }) => (
@@ -18,7 +19,7 @@ const PropertyList = () => {
 
   return (
     <FlatList
-      style={styles.container}
+      style={styles.containerPropertyList}
       data={properties.Properties}
       keyExtractor={(item) => item.id.toString()}
       renderItem={renderProperty}
@@ -26,11 +27,5 @@ const PropertyList = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 16,
-  },
-});
 
 export default PropertyList;
