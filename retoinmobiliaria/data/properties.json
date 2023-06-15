@@ -10,7 +10,8 @@
           "Bedrooms": 3,
           "Bathrooms": 2,
           "Space": "230 ft²",
-          "Price": "$440/m"
+          "Price": "$440/m",
+          "Rate": "4.7"
         }
       ]
     },
@@ -24,7 +25,8 @@
           "Bedrooms": 3,
           "Bathrooms": 2,
           "Space": "230 ft²",
-          "Price": "$440/m"
+          "Price": "$440/m",
+          "Rate": "4.7"
         }
       ]
     },
@@ -38,7 +40,8 @@
           "Bedrooms": 2,
           "Bathrooms": 2,
           "Space": "1200 ft²",
-          "Price": "$400/m"
+          "Price": "$400/m",
+          "Rate": "4.7"
         }
       ]
     },
@@ -52,7 +55,8 @@
           "Bedrooms": 1,
           "Bathrooms": 1,
           "Space": "900 ft²",
-          "Price": "$250/m"
+          "Price": "$250/m",
+          "Rate": "4.7"
         }
       ]
     },
@@ -66,7 +70,8 @@
           "Bedrooms": 3,
           "Bathrooms": 2,
           "Space": "2000 ft²",
-          "Price": "$500/m"
+          "Price": "$500/m",
+          "Rate": "4.7"
         }
       ]
     },
@@ -80,7 +85,8 @@
           "Bedrooms": 2,
           "Bathrooms": 1,
           "Space": "1500 ft²",
-          "Price": "$300/m"
+          "Price": "$300/m",
+          "Rate": "4.7"
         }
       ]
     },
@@ -94,7 +100,8 @@
           "Bedrooms": 4,
           "Bathrooms": 3,
           "Space": "2800 ft²",
-          "Price": "$650/m"
+          "Price": "$650/m",
+          "Rate": "4.7"
         }
       ]
     }

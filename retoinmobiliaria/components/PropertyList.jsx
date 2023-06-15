@@ -1,7 +1,7 @@
-import React from 'react';
-import { FlatList } from 'react-native';
-import PropertyCard from './Card';
-import properties from '../data/properties.json';
+import React from "react";
+import { FlatList } from "react-native";
+import PropertyCard from "./Card";
+import properties from "../data/properties.json";
 import { styles } from "./styles";
 
 const PropertyList = () => {
@@ -14,6 +14,7 @@ const PropertyList = () => {
       space={item.Details[0].Space}
       price={item.Details[0].Price}
       image={item.Details[0].image}
+      rate={item.Details[0].Rate}
     />
   );
 
@@ -26,6 +27,5 @@ const PropertyList = () => {
     />
   );
 };
-
 
 export default PropertyList;

@@ -5,7 +5,7 @@ import PropertyList from './components/PropertyList';
 const App = () => {
   return (
     <View style={styles.container}>
-      <PropertyList />
+      <PropertyList/>
     </View>
   );
 };

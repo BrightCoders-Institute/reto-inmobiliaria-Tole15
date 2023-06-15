@@ -71,24 +71,44 @@ export const styles = StyleSheet.create({
     transform: [{ scaleY: -1 }],
     marginBottom: 4,
   },
-    iconHeartContainer: {
-    flexDirection: 'row',
+  iconHeartContainer: {
+    flexDirection: "row",
     marginTop: 85,
-  },  
+  },
   circle: {
     width: 28,
     height: 28,
     borderRadius: 15,
     backgroundColor: colors.circle,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     marginRight: 2,
   },
   button: {
-    padding: 0,  
-  }, 
+    padding: 0,
+  },
   containerPropertyLis: {
     flex: 1,
     padding: 16,
   },
+  starContainer: {
+    position: "absolute",
+    top: "60%",
+    right: "25%",
+    backgroundColor: colors.BackStarColor,
+    flexDirection: "row",
+    alignItems: "center",
+    marginLeft: 35,
+    borderRadius: 10,
+    paddingVertical: 3,
+    paddingHorizontal: 8,
+    },
+
+  StarText: {
+    fontSize: 13,
+    marginLeft: 3,
+    color: colors.StarText,
+    fontFamily: "poppins-regular",
+    fontWeight: "bold",
+  }
 });

@@ -7,5 +7,8 @@ export const colors = {
     name: "black",
     circle: "#00B074",
     icons: "#747783",
+    StarIcon: "#FFC107",
+    StarText: "#7e6901",
+    BackStarColor: "#fdeea5"
   };
   
