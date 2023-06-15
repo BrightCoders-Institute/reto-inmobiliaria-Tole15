@@ -15,7 +15,7 @@ The objective of this project is to create a mobile application for managing rea
 - Detailed view of each property, including images, description, features, and relevant details.
 - Intuitive and user-friendly interface.
 
-![Functionality](img/funcional.png)
+![Functionality](img/funcionalfinish.png)
 
 ## Technologies Used
 
