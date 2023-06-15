@@ -1,0 +1,24 @@
+Add star rating aesthetic object to FlatList properties.
+
+This commit introduces the addition of a star rating aesthetic object to the properties of the FlatList component. The star rating feature enhances the visual appeal and user experience of the FlatList by allowing users to rate items using a star-based system. This commit includes the necessary code changes to implement the star rating functionality and ensures its proper integration with the existing FlatList component.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   App.js
+#	modified:   components/Card.jsx
+#	modified:   components/PropertyList.jsx
+#	modified:   components/colors.jsx
+#	modified:   components/styles.jsx
+#	modified:   data/properties.json
+#
+# Changes not staged for commit:
+#	deleted:    ../img/funcional.png
+#
+# Untracked files:
+#	../img/funcionalfinish.png
+#
