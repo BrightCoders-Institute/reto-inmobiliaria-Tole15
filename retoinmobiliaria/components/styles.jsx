@@ -33,7 +33,7 @@ export const styles = StyleSheet.create({
   addressContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 5
+    marginBottom: 5,
   },
   iconTextContainer: {
     flexDirection: 'row',

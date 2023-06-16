@@ -25,20 +25,6 @@ const IconWithText = ({ iconName, iconSize, iconColor, text }) => {
         color={iconColor}
         />
       )}
-      {iconName === 'location-pin' && (
-        <SimpleLineIcons
-        name={iconName}
-        size={iconSize}
-        color={iconColor}
-        />
-      )}
-      {iconName === 'star' && (
-        <FontAwesome
-        name={iconName}
-        size={iconSize}
-        color={iconColor}
-        />
-      )}
       <Text style={styles.infoText}>{text}</Text>
     </View>
   )
