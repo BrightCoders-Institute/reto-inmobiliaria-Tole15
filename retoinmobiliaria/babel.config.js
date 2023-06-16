@@ -1,14 +1,6 @@
 module.exports = function (api) {
-  api.cache(true);
+  api.cache(true)
   return {
-    presets: ['module:metro-react-native-babel-preset'],
-    plugins: [
-      [
-        '@babel/plugin-transform-runtime',
-        {
-          regenerator: true,
-        },
-      ],
-    ],
-  };
-};
+    presets: ['babel-preset-expo']
+  }
+}
