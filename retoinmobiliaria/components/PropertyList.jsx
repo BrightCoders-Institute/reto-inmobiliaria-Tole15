@@ -1,8 +1,8 @@
-import React from "react";
-import { FlatList } from "react-native";
-import PropertyCard from "./Card";
-import properties from "../data/properties.json";
-import { styles } from "./styles";
+import React from 'react'
+import { FlatList } from 'react-native'
+import PropertyCard from './Card'
+import properties from '../data/properties.json'
+import { styles } from './styles'
 
 const PropertyList = () => {
   const renderProperty = ({ item }) => (
@@ -16,7 +16,7 @@ const PropertyList = () => {
       image={item.Details[0].image}
       rate={item.Details[0].Rate}
     />
-  );
+  )
 
   return (
     <FlatList
@@ -25,7 +25,7 @@ const PropertyList = () => {
       keyExtractor={(item) => item.id.toString()}
       renderItem={renderProperty}
     />
-  );
-};
+  )
+}
 
-export default PropertyList;
+export default PropertyList

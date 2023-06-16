@@ -1,15 +1,15 @@
-import React from "react";
-import { View, Text, Image } from "react-native";
-import LikeButton from "./LikeButton";
+import React from 'react'
+import { View, Text, Image } from 'react-native'
+import LikeButton from './LikeButton'
 import {
   Ionicons,
   MaterialCommunityIcons,
   SimpleLineIcons,
-  FontAwesome,
-} from "@expo/vector-icons";
-import { useFonts } from "expo-font";
-import { styles } from "./styles";
-import { colors } from "./colors";
+  FontAwesome
+} from '@expo/vector-icons'
+import { useFonts } from 'expo-font'
+import { styles } from './styles'
+import { colors } from './colors'
 
 const PropertyCard = ({
   name,
@@ -19,14 +19,14 @@ const PropertyCard = ({
   space,
   price,
   image,
-  rate,
+  rate
 }) => {
   const [fontsLoaded] = useFonts({
-    "poppins-regular": require("../assets/fonts/Poppins-Regular.ttf"),
-  });
+    'poppins-regular': require('../assets/fonts/Poppins-Regular.ttf')
+  })
 
   if (!fontsLoaded) {
-    return null;
+    return null
   }
 
   return (
@@ -37,9 +37,9 @@ const PropertyCard = ({
 
         <View style={styles.starContainer}>
           <FontAwesome
-          name="star" 
-          size={13} 
-          color={colors.StarIcon} 
+          name="star"
+          size={13}
+          color={colors.StarIcon}
           />
           <Text style={styles.StarText}>{rate}</Text>
           </View>
@@ -87,7 +87,7 @@ const PropertyCard = ({
           <LikeButton/>
       </View>
     </View>
-  );
-};
+  )
+}
 
-export default PropertyCard;
+export default PropertyCard

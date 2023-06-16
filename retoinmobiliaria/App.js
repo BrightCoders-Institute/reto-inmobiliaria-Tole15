@@ -1,22 +1,22 @@
-import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import PropertyList from './components/PropertyList';
+import React from 'react'
+import { View, StyleSheet } from 'react-native'
+import PropertyList from './components/PropertyList'
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <PropertyList/>
+      <PropertyList />
     </View>
-  );
-};
+  )
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    justifyContent: 'center'
+  }
+})
 
-export default App;
+export default App

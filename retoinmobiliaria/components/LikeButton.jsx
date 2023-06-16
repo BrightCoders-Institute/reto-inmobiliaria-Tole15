@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { View } from 'react-native';
-import { Button, Icon } from 'react-native-elements';
-import { styles } from "./styles";
+import React, { useState } from 'react'
+import { View } from 'react-native'
+import { Button, Icon } from 'react-native-elements'
+import { styles } from './styles'
 
 const LikeButton = () => {
-  const [liked, setLiked] = useState(false);
+  const [liked, setLiked] = useState(false)
 
   const handleLike = () => {
-    setLiked(!liked);
-  };
+    setLiked(!liked)
+  }
 
   return (
     <View style={styles.iconHeartContainer}>
@@ -28,8 +28,7 @@ const LikeButton = () => {
         />
       </View>
     </View>
-  );
-};
+  )
+}
 
-
-export default LikeButton;
+export default LikeButton

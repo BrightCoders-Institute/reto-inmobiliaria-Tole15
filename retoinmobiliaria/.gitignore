@@ -1,22 +1,35 @@
-import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import PropertyList from './components/PropertyList';
+# Ignorar los node_modules generados por npm o Yarn
+/node_modules
 
-const App = () => {
-  return (
-    <View style={styles.container}>
-      <PropertyList />
-    </View>
-  );
-};
+# Ignorar archivos de construcción de plataformas específicas
+/ios/build/
+/android/build/
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+# Ignorar archivos de dependencias específicas de plataforma
+/ios/Pods/
+/android/app/libs/
 
-export default App;
+# Ignorar archivos generados automáticamente
+*.log
+*.diff
+*.patch
+
+# Ignorar archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignorar archivos de respaldo
+*.bak
+*.backup
+*.swp
+
+# Ignorar archivos de dependencias de desarrollo
+/jest-cache/
+/.eslintcache
+/coverage/
