@@ -108,6 +108,10 @@ The development team will review your request and provide feedback as soon as po
 
 Credits to me: [Tole15](https://github.com/BrightCoders-Institute/reto-inmobiliaria-Tole15)
 
+## Badges
+
+<a href="https://codeclimate.com/github/BrightCoders-Institute/reto-inmobiliaria-Tole15/maintainability"><img src="https://api.codeclimate.com/v1/badges/cb5d5b0381851a9887eb/maintainability" /></a>
+
 ## Contact
 
 If you have any questions or suggestions regarding the project, feel free to visit our collaboration space on Gather.town: [Campus Zeffo](https://app.gather.town/app/Xqjd4OwO4fzoQAHV/campus-zeffo).
